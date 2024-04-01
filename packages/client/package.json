@@ -1,0 +1,43 @@
+{
+  "name": "@bubble-protocol/client",
+  "version": "0.1.2",
+  "description": "Bubble Protocol client-side library",
+  "author": "Bubble Protocol",
+  "license": "MIT",
+  "keywords": [
+    "bubble",
+    "bubble protocol",
+    "access controlled storage",
+    "web3",
+    "decentralized storage",
+    "blockchain",
+    "evm",
+    "data privacy"
+  ],
+  "main": "src/index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Bubble-Protocol/bubble-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bubble-Protocol/bubble-sdk/issues"
+  },
+  "homepage": "https://github.com/Bubble-Protocol/bubble-sdk/tree/main/packages/client",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "@bubble-protocol/core": "^0.0.x",
+    "@bubble-protocol/crypto": "^0.0.x",
+    "jayson": "^4.0.0",
+    "web3": "^1.9.0",
+    "ws": "^8.13.0"
+  }
+}
